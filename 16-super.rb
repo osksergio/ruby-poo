@@ -4,14 +4,17 @@ class Franquia
   end
 end
 
-class Franquiado < Franquia
+class Franqueado < Franquia
   def descricao
-    "Franquiado!"
+    puts super
+    "Franqueado!"
   end
 end
 
-f = franquia.new
+f = Franquia.new
 puts f.descricao
 
-ff = Franquiado.new
+puts "====================="
+
+ff = Franqueado.new
 puts ff.descricao
