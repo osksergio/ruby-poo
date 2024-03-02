@@ -1,6 +1,9 @@
-# se mudar para o parâmetro w o arquivo ser aberto para escrita
-File.open('file_test.txt', 'r') do |f|
-  while line = f.gets
-    puts line
+if ARGV.size > 0
+  File.open(ARGV[0], 'r') do |f|
+    while line = f.gets
+      puts line
+    end
   end
+else
+  puts "Informe o nome do arquivo (Ex: ruby app.rb teste.txt)"
 end

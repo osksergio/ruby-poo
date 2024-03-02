@@ -1,0 +1,7 @@
+Este é outro arquivo de teste!
+
+Outro arquivo - Linha 1: Sergio Oseko - Testando...
+Outro arquivo - Linha 2: Conteúdo da linha 2 
+Outro arquivo - Linha 3: Conteúdo da linha 3
+Outro arquivo - Linha 4: Conteúdo da linha 4
+Outro arquivo - Linha 5: Conteúdo da linha 5
